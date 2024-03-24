@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #333248;
+    color: #FF914D;
+    height: 120px;
+    padding-left: 1.5em;
+    padding-right: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    height: 85%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.baskerville {
+    font-family: 'LibreBaskerville', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
