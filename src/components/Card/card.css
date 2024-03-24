@@ -13,7 +13,6 @@
 
 .card-title {
     height: 100%;
-    color: #FF914D;
     font-family: 'LibreBaskerville';
     font-size: 24px;
     font-weight: bold;
@@ -21,6 +20,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #FF914D;
+}
+
+.card-title a:hover {
+    color: #fbe269;
 }
 
 .card-overlay {
